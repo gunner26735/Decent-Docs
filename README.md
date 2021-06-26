@@ -1,2 +1,1 @@
-# sharing
-For sharing only
+A Project on Decentralized Documnets
