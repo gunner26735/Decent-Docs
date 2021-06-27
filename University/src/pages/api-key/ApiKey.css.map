@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACG,AAAD,gBAAS,CAAC;EACR,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,QAAQ;EAChB,MAAM,EAAE,iBAAiB;EACzB,aAAa,EAAE,GAAG;CACnB",
+    "sources": [
+        "ApiKey.scss"
+    ],
+    "names": [],
+    "file": "ApiKey.css"
+}
