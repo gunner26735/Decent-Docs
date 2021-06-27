@@ -1,0 +1,103 @@
+@media all and (min-width: 480px) {
+
+  body
+  {
+    
+    background-color: #FFFFFF;
+  }
+  .Login {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    width: 100%;
+    padding: 35px 0;
+    background-color: #FFFFFF;
+  }
+
+  .Login .Form {
+    margin: 0 auto;
+    max-width: 454px;
+  }
+}
+body
+{
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+
+.Login .Form {
+  background: #FFFFFF;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 75px 40px;
+}
+
+.Login .Title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+
+.Login .Info {
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  line-height: 21px;
+  color: #000000;
+  margin: 0 0 25px 0;
+}
+
+.Login .Label {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000;
+  margin: 0 0 10px 0;
+}
+
+.Login .Input { 
+  background: #fff !important;
+  border-color: transparent;
+  cursor: pointer;
+}
+.Login .Input:focus { 
+  background: #fff !important;
+  border-color: #000;
+}
+
+input:-internal-autofill-selected
+{
+  background-color: #fff !important;
+  color: #000 !important;  
+}
+
+.Login .Button {
+  color: #fff;
+  cursor: pointer;
+  background: #2375d3;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.Input
+{
+  background: #fff;
+}
+
+.Login .Button:disabled {
+  cursor: default;
+}
+
+.Login .Button:disabled:hover {
+  background: #2375d3;
+}
+
+.Login .Button:hover {
+  background: #175caa;
+}
+
+.Login .Link {
+  float: right;
+  color: #2400FF;
+  text-decoration: underline;
+}

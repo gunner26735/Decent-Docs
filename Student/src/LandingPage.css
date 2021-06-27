@@ -1,0 +1,105 @@
+body
+{
+    margin: 0;
+    background: #fff;
+}
+nav
+{
+    position: absolute;
+    height: 10vh;
+    width: 100%;
+    background: #f1f1f1;
+    z-index: 2;
+
+}
+nav ul
+{
+    margin: 1em 0;
+    max-width: 100%;
+    display: flex;
+    padding: 0 5em;
+    justify-content: space-between;
+}
+nav ul li
+{
+    list-style: none;
+    padding: 10px 20px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #000;
+    font-size: 18px;
+    transition: .3s all ease-in;
+
+}
+nav ul li a:hover
+{
+    text-decoration: none;
+    color: #fff;
+    background: #2375d3;
+}
+section
+{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 1;
+
+}
+section h1
+{
+    margin: 4em 2em 0.5em 2em;
+    font-size: 4em;
+    font-weight: bold;
+}
+section p
+{
+    margin: 0em 5em 1em 6em;
+    font-size: 1.4em;
+}
+section .button
+{
+    text-decoration: none;
+    margin: 1em 6em;
+    font-size: 20px;
+    padding: .8em 2em;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(150deg, #3584c4 60%,  #16568a);
+}
+.section 
+{
+ position: absolute;
+ top: 0;
+ right: 0;
+ height: 100vh;
+ width: 100%;
+ z-index: 0;
+}
+ 
+.section div
+{
+    margin: 8em 10em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 70vh;
+    width: 30%;
+    background: url(./image.png) no-repeat;
+
+}
+
+@media all and (max-width: 1000px)
+{
+    .section
+    {
+        visibility: hidden;
+    }
+}
